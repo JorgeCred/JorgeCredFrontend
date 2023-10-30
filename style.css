@@ -7,13 +7,28 @@
 header {
     display: flex;
     height: 15vh;
-    background-color: lightgray;
+    background: linear-gradient(to bottom, #405E5B, #204745);
+
 }
 
 #logo {
-    background-color: blue;
+    width: 10vw;
+    height: 10vh;
+    background: linear-gradient(to bottom, #405E5B, #204745);
 
 }
+
+#logo img {
+    background-color: blue;
+    max-width: 100%;
+    max-height: 100%;
+    background: linear-gradient(to bottom, #405E5B, #204745);
+
+}
+
+section {
+    position: relative;
+} 
 
 #banner {
     height: 100vh;
@@ -22,11 +37,41 @@ header {
 
 #login-form {
     border-radius: 5px;
-    background-color: white;
-    height: 30vh;
-    width: 30vw;
+    background-color: rgba(203, 232, 229, 0.9);
+    height: 35vh;
+    width: 25vw;
     z-index: 1;
     position: absolute;
+    top: 30%;
+    left: 5%;
+    gap: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.tag-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #204745;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+
+
+}
+
+.field-container {
+    
+}
+
+input {
+    background-color: #66b9b1;
+    border-radius: 5px;
+    height: 5vh;
+    width: 15vw;
+
+}
 
